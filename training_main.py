@@ -178,7 +178,8 @@ def main():
             running_loss += loss.item()
 
         accuracy = compute_accuracy(testloader, model)
-        print(f'Epoch {e + 1}. Training loss: {running_loss / batch_num}. Accuracy: {accuracy}', flush=True)
+        print(f'Epoch {e + 1}. Training loss: {round(running_loss / batch_num, 3)}. Accuracy: {round(accuracy, 3)}',
+            flush=True)
 
         if (e + 1) % computation_stride == 0:
             compute_regions(model=model, axis_min=axis_min, axis_max=axis_max, points=points, labels=point_labels,

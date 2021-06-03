@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# MNIST data
+mnist_train/
+mnist_test/
