@@ -36,11 +36,11 @@ Demonstrates the main routines at initialization
 Number of linear regions: 216
 Number of linear pieces in the decision boundary: 30
 Approximate number of linear regions: 199
-
+#########################################
 Upper bound on the expected number using full formula. Number of linear regions: 107528470. Number of linear pieces in the decision boundary: 2688211
 Asymptotic with K. Number of linear regions: 800. Number of linear pieces in the decision boundary: 40
 Asymptotic without K. Number of linear regions: 200. Number of linear pieces in the decision boundary: 20
-
+#########################################
 Plotted regions and the decision boundary. The results are in the "images" folder.
 ```
 Two images that will be created are in the 'images' folder and have names 'initialization regions.png' and 'initialization decision boundary.png'
