@@ -1,5 +1,5 @@
 * All the requirements can be installed with pip using the command
-	pip install 'library-name'
+	pip install -r requirements.txt
 
 * Run one of the files with entry points with Python in the command line as
 	python filename.py
@@ -30,17 +30,17 @@
 			in a slice determined by three data points before and during training.
 		* The output should be:
 			before training: 111 linear regions; 20 linear pieces in the decision boundary
-			Epoch 1. Training loss: 0.8642288140142396. Accuracy: 0.8697
-			Epoch 2. Training loss: 0.38970992890502343. Accuracy: 0.9079
-			Epoch 3. Training loss: 0.3113546740970632. Accuracy: 0.9193
-			Epoch 4. Training loss: 0.269193919800492. Accuracy: 0.926
-			Epoch 5. Training loss: 0.24027930916563026. Accuracy: 0.9321
+			Epoch 1. Training loss: 0.864. Accuracy: 0.87
+			Epoch 2. Training loss: 0.39. Accuracy: 0.908
+			Epoch 3. Training loss: 0.311. Accuracy: 0.919
+			Epoch 4. Training loss: 0.269. Accuracy: 0.926
+			Epoch 5. Training loss: 0.24. Accuracy: 0.932
 			after 5 epochs: 178 linear regions; 56 linear pieces in the decision boundary
-			Epoch 6. Training loss: 0.2202531310842871. Accuracy: 0.9357
-			Epoch 7. Training loss: 0.20586375998599188. Accuracy: 0.9397
-			Epoch 8. Training loss: 0.19543696281466402. Accuracy: 0.9421
-			Epoch 9. Training loss: 0.18715284791773062. Accuracy: 0.9414
-			Epoch 10. Training loss: 0.17996366347458317. Accuracy: 0.9418
+			Epoch 6. Training loss: 0.22. Accuracy: 0.936
+			Epoch 7. Training loss: 0.206. Accuracy: 0.94
+			Epoch 8. Training loss: 0.195. Accuracy: 0.942
+			Epoch 9. Training loss: 0.187. Accuracy: 0.941
+			Epoch 10. Training loss: 0.18. Accuracy: 0.942
 			after 10 epochs: 193 linear regions; 49 linear pieces in the decision boundary
 		* Six images that will be created are in the 'images' folder and have names
 			'before training regions.png', 'before training decision boundary.png',
