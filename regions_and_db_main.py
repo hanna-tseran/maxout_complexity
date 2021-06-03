@@ -37,7 +37,7 @@ def main():
     print(f'Approximate number of linear regions: {approx_regions_num}')
 
     # Theoretical estimates of the number of linear regions and linear pieces in the decision boundary
-    print('-----------------------------')
+    print('#########################################')
     c_bias = net.estimate_c_bias()
     c_grad = net.estimate_c_grad(axis_min=axis_min, axis_max=axis_max, axis_steps=c_grad_axis_steps)
     predicted_num_regions = int(regions_formula(c_bias=c_bias, c_grad=c_grad, K=K, N=num_neurons, n_in=input_size,
@@ -60,7 +60,7 @@ def main():
     # Plot linear regions and the decision boundary
     plot_regions_and_decision_boundary(gradients=gradients.tolist(), axis_min=axis_min, axis_max=axis_max,
         axis_steps=axis_steps, db_pieces=db_pieces, print_name='initialization')
-    print('-----------------------------')
+    print('#########################################')
     print('Plotted regions and the decision boundary. The results are in the "images" folder.')
 
 if __name__ == '__main__':
