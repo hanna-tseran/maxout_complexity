@@ -24,9 +24,9 @@ To run:
 python regions_and_db_main.py
 ```
 
-Demonstrates main routines at initialization
+Demonstrates the main routines at initialization
  - counts linear regions approximately and exactly
- - counts linear pieces in the decision boundary
+ - counts exactly linear pieces in the decision boundary
  - computes theoretical formulas as a reference
  - plots linear regions in a 2D input space
  - plots decision boundary in a 2D input space
@@ -76,4 +76,4 @@ after 10 epochs: 193 linear regions; 49 linear pieces in the decision boundary
 Six images that will be created are in the 'images' folder and have names 'before training regions.png', 'before training decision boundary.png', 'after 5 epochs regions.png', 'after 5 epochs decision boundary.png', 'after 10 epochs regions.png', 'after 10 epochs decision boundary.png'
 
 ## Running with custom parameters
-Edit parameters at the beginning of the 'main' function of one of the scripts to get results for different parameters.
+Edit parameters at the beginning of the 'main' function of a corresponding script to get results for different parameters.
