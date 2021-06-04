@@ -24,7 +24,7 @@ To run:
 python regions_and_db_main.py
 ```
 
-Demonstrates the main routines at initialization
+This script demonstrates the main routines at initialization
  - counts linear regions approximately and exactly
  - counts exactly linear pieces in the decision boundary
  - computes theoretical formulas as a reference
@@ -52,7 +52,7 @@ Two images that will be created are in the 'images' folder and have names 'initi
 python training_main.py
 ```
 
-Trains the network and obtains the results of interest before and during training
+This script trains the network and obtains the results of interest before and during training
  - trains a network on the MNIST dataset using one of the initializations
  - counts exactly linear regions, pieces in the decision boundary and plots the regions and the decision boundary in a slice determined by three data points before and during training.
 
