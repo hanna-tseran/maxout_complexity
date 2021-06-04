@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ## Running code
 
-This repository contains implementation of the key routines used in the paper experiments.
+This repository contains the implementation of the key routines used in the paper experiments.
 Functions performing counting are in the Network class in network.py, and initializations are in init_method.py.
 The images will appear in the 'images' folder.
 We provide the scripts allowing to get results at initialization and during training.
