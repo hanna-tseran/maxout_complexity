@@ -1,6 +1,6 @@
 # On the Expected Complexity of Maxout Networks
 
-This repository is the official implementation of [On the Expected Complexity of Maxout Networks](anonymous). 
+This repository is the official implementation of [On the Expected Complexity of Maxout Networks](https://arxiv.org/abs/2107.00379).
 
 ## Requirements
 
